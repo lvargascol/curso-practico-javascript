@@ -24,3 +24,10 @@ Estaremos trabajando en un proyecto, y al finalizarlo, deberiamos tener un mayor
 -Segundo paso: Implementar las fórmulas en JS.
 -Tercer paso: Crear funciones para lo anterior
 -Cuarto paso: Integrar con HTML
+
+## Taller #4 : Salarios
+
+-Primer paso: Definir las fórmulas.
+-Segundo paso: Implementar las fórmulas en JS.
+-Tercer paso: Crear funciones para lo anterior
+-Cuarto paso: Integrar con HTML
