@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css" />
     <title>Document</title>
 </head>
 <body>
-    <h1>Salarios</h1>
+    
+    <header class="container">
+        <h1>Interés promedio</h1>
+        <p>Reto Final del Curso Pŕáctico de JavaScript</p>
+    </header>
+    <main class="container">
+        <section>
+            <p>Con esta herramienta, podremos conocer el interes promedio del rendimiento de nuestras inversiones</p>
+            <form id="form1" action="">
+                <label for="periodInput">
+                    Numero de periodos
+                </label>
+                
+                <input id="periodInput" type="number"><br>
+             
+            </form>
+
+            <form id="form2" action="">
+                <!-- <label for="interestInput1">
+                    Interes periodo 1
+                </label>                
+                <input id="interestInput1" type="number"><br> -->
+
+                <button type="button" onclick="calculateRentability()">
+                    Calcular
+                </button>                
+            </form>
+
+            <div id="result"></div>
+
+        </section>
+
+
+
     <script src="salarios.js"></script>
     <script src="analisis.js"></script>
 </body>
