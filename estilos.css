@@ -1,0 +1,47 @@
+/* General */
+
+:root {
+	--primary-color: #263268;
+	--secondary-color: #b8bbe7;
+	--tertiary-color: #bc8c77;
+	--dark-color: #0a0a0a;
+}
+
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+html {
+	font-size: 62.5%;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: var(--secondary-color);
+}
+
+.container {
+	max-width : 1000px;
+	margin: 0 auto;
+	padding: 0 5px;
+	display: flex;	
+	flex-direction: column;
+}
+
+h1 , p {
+	padding: 5px 0;
+}
+
+label {
+	width: 500px;
+	margin: 5px 0;
+}
+
+input {
+	width: 80px;
+}
+
